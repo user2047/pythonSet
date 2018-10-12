@@ -108,6 +108,6 @@ if __name__ == "__main__":
     print()
     print(xor(e,f).list)
     print()
-    print(intersection(union(union(a,b),e),difference(c,d)).list)
+    print(intersection(negation(union(union(a,b),e)),difference(c,d)).list)
     print()
     print(cross(e,g).list)
